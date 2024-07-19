@@ -1,0 +1,37 @@
+/* Box Sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Reset margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+}
+
+/* Images default settings */
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.cards-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-block: 5rem;
+	padding-inline: 4rem;
+	gap: 4rem;
+}
