@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # react-travel-journal
 # travel-journal
 # travel-journal
+# react-travel-journal
