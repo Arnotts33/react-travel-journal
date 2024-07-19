@@ -4,7 +4,7 @@ function Card(props) {
 		<div className="card">
 			<div>
 				<img
-					src={`../public/assets/images/${props.coverImg}`}
+					src={`/assets/images/${props.coverImg}`}
 					className="card--cover-image"
 					alt="japan"
 				/>
